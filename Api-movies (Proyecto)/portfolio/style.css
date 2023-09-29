@@ -1,0 +1,168 @@
+
+*{
+    background-color: black;
+}
+body{
+    color: ghostwhite;
+}
+
+
+/* cards */
+#card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px; 
+    margin: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  #card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+  }
+  
+#card img{
+    
+max-width: 100%;
+height: auto;
+border-radius: 4px;
+    
+}
+.descripcion{
+ margin-top: 10px;    
+}
+
+.descripcion a:hover {
+background-color: #0056b3;
+}
+
+.descripcion h3{
+margin-left: 100px;  
+
+}
+
+#objetivos{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+table {
+width: 800px; 
+height: 200px;
+}
+th{
+    background-color: #555;
+}
+
+td{
+    text-align: center;
+}
+
+/* menu desplegable */
+#items{
+  
+  
+  width: 50%;
+}
+
+#menu_des {
+    background-color: wheat;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    list-style: outside;
+  }
+  li {
+    
+    
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  a:hover {
+    color: #555;
+  }
+  .submenu {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 300px;
+    margin-top: 5px;
+   
+  }
+  #info{
+      
+      height: 19%;
+      width: 60%;
+  }
+
+  #info p{
+      padding: 15px;
+      background-color: #555;
+      width: 70%;
+      margin-top: -20px;
+      border-radius: 15px;
+      margin-right: start;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, transform 0.3s;
+      
+  }
+
+  #info p:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05);
+  }
+  h2{
+      margin-left: 1px;
+  }
+
+  h1{
+      margin-left: 41%;
+  }
+
+  #image img{
+      margin-left: 190px;
+      width: 70%;
+      height: 80%;
+  }
+  #image{
+      padding: 20px;
+      background-color: #555;
+  }
+
+  div{
+      margin-bottom: 50px;
+  }
+
+#dtos{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, transform 0.3s;
+  width: 300px;
+}
+
+#dtos:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.05);
+}
+
+#im{
+  margin-left: 75%;
+  width: 0px;
+  height: 100px;
+  padding: 5px;
+  margin-top: -140px;
+}
+
+#im img{
+  width: 220px;
+  border-radius: 50%;
+}
